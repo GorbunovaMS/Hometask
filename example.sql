@@ -1,0 +1,6 @@
+DROP DATABASE IF EXISTS example;
+CREATE DATABASE example;
+CREATE TABLE example.users (
+`id` INT NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`id`));
